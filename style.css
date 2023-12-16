@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(26, 29, 29);
+}
+.title {
+  color: blue;
+  font-size: 50px;
+}
+.description {
+  color: red;
+  font-size: 20px;
+}
+#unique {
+  color: green;
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+  color: cyan;
+}
