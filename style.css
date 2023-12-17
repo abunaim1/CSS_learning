@@ -48,7 +48,7 @@ p {
 .child{
     background-color: rgb(228, 70, 12);
     border: solid 10px rgb(25, 25, 24);
-    width: 30%;
+    width: 50%;
     margin: auto;
     height: 100vh;
 }
@@ -65,10 +65,37 @@ p {
 }
 .container{
     display: flex;
-    height: 100vh;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-bottom: 20px;
+}
+.box1{
+  background-color: rgb(124, 118, 118);
+  position: absolute;
+}
+.box2{
+  background-color: rgb(231, 7, 7);
+  position: relative;
+}
+.box3{
+  background-color: rgb(75, 74, 74);
+}
+.green{
+  margin-left: 30%;
+  width: 450px;
+  height: 250px;
+  background-color: green;
+}
+.red{
+  
+  background-color: red;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  position: relative;
+  top:29%;
+  left: 36%;
 }
