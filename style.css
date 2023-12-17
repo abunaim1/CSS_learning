@@ -56,3 +56,19 @@ p {
     color: rgb(255, 255, 255);
     font-size: 30px;
 }
+.flex-box{
+    color: aliceblue;
+    width: 200px;
+    height: 150px;
+    font-size: 45px;
+    border: solid 3px cornsilk;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
