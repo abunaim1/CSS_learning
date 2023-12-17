@@ -25,7 +25,7 @@ p {
 }
 .box {
     border: solid 20px cornsilk;
-    color:aquamarine;
+    color:rgb(9, 9, 9);
     /* margin-top: -200px; */
     margin-top: 200px;
     margin-bottom: 200px;
@@ -35,4 +35,24 @@ p {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-right: 100px;
+    background-color: aqua;
+    /* left px, right px, full body px */
+    box-shadow: 0px 0px 100px chartreuse;
+}
+.testing{
+    border: solid 1px rgb(240, 194, 7);
+    background-color: rgb(3, 3, 210);
+    width: 50%;
+    margin: auto;
+}
+.child{
+    background-color: rgb(228, 70, 12);
+    border: solid 10px rgb(25, 25, 24);
+    width: 30%;
+    margin: auto;
+    height: 100vh;
+}
+.fa-solid{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
 }
