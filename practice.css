@@ -1,11 +1,27 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.banner-container{
-    height: 100vh;
-    background-image: url("slider-2.jpg"),linear-gradient(rgb(0, 0, 0, 0.2),rgb(0, 0, 0, 0.4));
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.banner-container {
+  height: 100vh;
+  background-image: url("slider-2.jpg"), linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  color: white;
+  font-size: 200px;
+  padding-top: 150px;
+}
+@media only screen and (max-width: 480px) {
+  .banner-container {
+    background-image: none;
+  }
+  h1 {
+    font-size: 35px;
+    padding-top: 300px;
+    padding-left: 90px;
+    color: rgb(20, 20, 20);
+  }
 }
